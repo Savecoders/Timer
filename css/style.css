@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo:wght@300&display=swap');
+:root {
+	--bgcolor: #161b33;
+	--bgTimer: #1e2742;
+	--bgFont: rgba(255, 255, 255, 0.801);
+	--font: 'Exo', sans-serif;
+}
+body {
+	display: flex;
+	background-color: var(--bgcolor);
+	justify-content: center;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+}
+.container {
+	top: 35%;
+	position: absolute;
+}
+
+p {
+	color: var(--bgFont);
+	font-size: clamp(3em, 5vw + 3em, 7em);
+	margin: 0;
+	font-family: var(--font);
+}
+.footer {
+	display: flex;
+	position: fixed;
+	bottom: 0;
+	width: 50vw;
+	height: 6vh;
+	margin-bottom: 8vh;
+	justify-content: space-around;
+	align-items: center;
+	text-align: center;
+}
+i {
+	font-size: clamp(1em, 2vw + 1em, 2em);
+	cursor: pointer;
+}
+#button-play {
+	color: #dd2e45c5;
+}
+#button-pause {
+	color: #7a78ff94;
+}
+#button-reset {
+	color: #1bc398;
+}
